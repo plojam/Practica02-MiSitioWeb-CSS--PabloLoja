@@ -1,0 +1,52 @@
+header a#img{
+    width: 13%;
+    float: left;
+}
+
+header .icono{
+    width: max-content;
+    float: left;
+    /*border: solid black;*/
+}
+
+header input{
+    width: 62%;
+    float: left;
+    margin-top: 20px;
+}
+
+div#separador{
+    width: 99%;
+    height: 1px;
+    clear: both;
+}
+
+
+section h2, section p {
+    width: 65%;
+    float: left;
+}
+
+section aside{
+    width: 30%;
+    float: left;
+}
+
+.dep{
+    padding-left: 1%;
+    padding-right: 1%;
+    float: left;
+}
+
+article#cita *{
+    float: left;
+}
+article#cita{
+    padding-left: 20%;
+}
+
+.exponentes{
+    padding-left: 17%;
+    float: left;
+}
+

@@ -1,0 +1,88 @@
+@font-face{
+    font-family: fmenu;
+    src: url("../fuentes/GloriaHallelujah-Regular.ttf");
+}
+
+@font-face{
+    font-family: ftitulo;
+    src: url("../fuentes/Lobster-Regular.ttf");
+}
+
+@font-face{
+    font-family: ftexto;
+    src: url("../fuentes/PermanentMarker-Regular.ttf");
+}
+
+@font-face{
+    font-family: fpie;
+    src: url("../fuentes/IndieFlower-Regular.ttf");
+}
+
+body{
+    background-color: wheat;
+}
+
+h1,h2,h3{
+    font-family: ftitulo;
+}
+
+p{
+    font-family: ftexto;
+}
+
+footer{
+    font-family: fpie;
+}
+
+.menu{
+    font-family: fmenu;
+}
+
+section{
+    background-color: #CCAB5E;
+}
+
+article{
+    background-color: #FFD675;
+}
+
+.mitad{
+    text-align: center;
+}
+
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+.menu{
+    /*border: solid black;*/
+    height: max-content;
+    width: 10%;
+    float: left;
+    text-align: center;
+    background-color: #856F3D;
+}
+
+.menu:hover{
+    background-color: #FFE3B0;
+}
+
+div.separadores{
+    width: 99%;
+    height: 10px;
+    clear: both;
+}
+
+fieldset{
+    width: 30%;
+    float: left;
+    padding-left: 40px;
+}
+
+span#derechos{
+    float: right;
+}
