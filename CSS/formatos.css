@@ -19,43 +19,54 @@
 }
 
 body{
-    background-color: wheat;
+    /*background-color: wheat;*/
+    /*background-color: #59B361;*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../imagenes/wall.jpg);
+}
+
+header a#img{
+    width: 13%;
+    float: left;
+}
+
+header .icono{
+    width: max-content;
+    float: left;
+    /*border: solid black;*/
+}
+
+header input{
+    width: 62%;
+    height: 25px;
+    float: left;
+    margin-top: 20px;
 }
 
 h1,h2,h3{
     font-family: ftitulo;
+    color: slategray;
 }
 
 p{
     font-family: ftexto;
+    color: slategray;
 }
 
 footer{
     font-family: fpie;
 }
 
-.menu{
+.menu,.vinculo{
     font-family: fmenu;
 }
-
-section{
-    background-color: #CCAB5E;
-}
-
-article{
-    background-color: #FFD675;
-}
-
-.mitad{
-    text-align: center;
-}
-
 
 .menu a{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    color: darkslateblue;
+    color: white;
 }
 
 .menu{
@@ -64,11 +75,45 @@ article{
     width: 10%;
     float: left;
     text-align: center;
-    background-color: #856F3D;
+    background-color: rgb(95, 77, 77);
 }
 
 .menu:hover{
-    background-color: #FFE3B0;
+    background-color: rgb(126, 37, 37);
+}
+
+.vinculo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.vinculo{
+    /*border: solid black;*/
+    height: max-content;
+    text-align: center;
+    background-color: rgb(95, 77, 77);
+}
+
+.vinculo:hover{
+    background-color: rgb(126, 37, 37);
+}
+
+.mitad{
+    text-align: center;
+}
+
+section{
+    /*background-color: #CCAB5E;*/
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+article{
+    /*background-color: #FFD675;*/
+    background-color: #C2C2C2;
+    border-radius: 20px;
 }
 
 div.separadores{
@@ -85,4 +130,13 @@ fieldset{
 
 span#derechos{
     float: right;
+}
+
+span,legend,hr{
+    color: white;
+}
+
+hr{
+    border-color: white; 
+    background-color: white;
 }

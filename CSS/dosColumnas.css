@@ -1,0 +1,25 @@
+aside#izq{
+    width: 19%;
+    float: left;
+    background-color: rgb(95, 77, 77);
+}
+
+aside#der{
+    padding-left: 10px;
+    width: 80%;
+    float: left;
+}
+
+
+article img, article video{
+    padding-left: 10px;
+    width: 50%;
+    float: left;
+}
+
+article aside{
+    padding-top: 2%;
+    padding-left: 2%;
+    width: 40%;
+    float: left;
+}
