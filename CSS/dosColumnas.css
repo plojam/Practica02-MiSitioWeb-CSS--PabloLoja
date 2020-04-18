@@ -11,21 +11,26 @@ aside#der{
 }
 
 
-article img, article video{
+article img,article video{
     padding-left: 2%;
     width: 50%;
     float: left;
+}
+
+img.imga{
+    padding-left: 2% !important;
+    width: 100% !important;
+    float: none !important;
 }
 
 article aside{
     padding-top: 2%;
     padding-left: 2%;
-    width: 40%;
+    width: 45%;
     float: left;
 }
 
 ul{
     padding-left: 40px;
-    width: 50%;
     float: left;
 }
