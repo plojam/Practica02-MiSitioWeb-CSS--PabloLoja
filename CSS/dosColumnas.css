@@ -17,7 +17,7 @@ article img,article video{
     float: left;
 }
 
-img.imga{
+.ita{
     padding-left: 2% !important;
     width: 100% !important;
     float: none !important;
@@ -34,3 +34,4 @@ ul{
     padding-left: 40px;
     float: left;
 }
+
