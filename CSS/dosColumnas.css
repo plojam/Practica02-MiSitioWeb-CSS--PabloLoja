@@ -12,7 +12,7 @@ aside#der{
 
 
 article img, article video{
-    padding-left: 10px;
+    padding-left: 2%;
     width: 50%;
     float: left;
 }
@@ -21,5 +21,11 @@ article aside{
     padding-top: 2%;
     padding-left: 2%;
     width: 40%;
+    float: left;
+}
+
+ul{
+    padding-left: 40px;
+    width: 50%;
     float: left;
 }

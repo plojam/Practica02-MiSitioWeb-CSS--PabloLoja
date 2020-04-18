@@ -18,6 +18,11 @@
     src: url("../fuentes/IndieFlower-Regular.ttf");
 }
 
+@font-face{
+    font-family: flistas;
+    src: url("../fuentes/NanumPenScript-Regular.ttf");
+}
+
 body{
     /*background-color: wheat;*/
     /*background-color: #59B361;*/
@@ -45,6 +50,7 @@ header input{
 }
 
 h1,h2,h3{
+    padding-left: 12px;
     font-family: ftitulo;
     color: slategray;
 }
@@ -54,15 +60,18 @@ p{
     color: slategray;
 }
 
-footer{
-    font-family: fpie;
+ul{
+    font-family: flistas;
+    color: slategray;
 }
 
-.menu,.vinculo{
-    font-family: fmenu;
+footer{
+    font-family: fpie;
+    color: white;
 }
 
 .menu a{
+    font-family: fmenu;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -83,6 +92,7 @@ footer{
 }
 
 .vinculo a{
+    font-family: fmenu;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -130,13 +140,4 @@ fieldset{
 
 span#derechos{
     float: right;
-}
-
-span,legend,hr{
-    color: white;
-}
-
-hr{
-    border-color: white; 
-    background-color: white;
 }
