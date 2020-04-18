@@ -5,15 +5,15 @@ div#separador{
 }
 
 
-section p {
+section blockquote {
     text-align: center;
-    width: 40%;
+    width: 35%;
     float: left;
 }
 
 section aside{
     text-align: center;
-    width: 60%;
+    width: 59%;
     float: left;
 }
 
@@ -21,7 +21,6 @@ section aside{
     padding-left: 1%;
     padding-right: 1%;
     float: left;
-    text-align: center;
 }
 
 article#cita *{
