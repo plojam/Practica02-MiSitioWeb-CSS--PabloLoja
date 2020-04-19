@@ -1,0 +1,107 @@
+@font-face{
+    font-family: ftabla;
+    src: url("../fuentes/PermanentMarker-Regular.ttf");
+}
+
+aside#izq{
+    width: 15%;
+    float: left;
+    background-color: rgb(95, 77, 77);
+}
+
+aside#cen{
+    width: 68%;
+    float: left;
+    padding-left: 10px;
+}
+
+aside#der{
+    width: 15%;
+    float: left;
+    padding-left: 10px;
+}
+
+
+.tg{
+    margin-left: 100px;
+    font-family: ftitulo;
+    color: slategray;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+.tg td{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+.tg th{
+    font-family:Arial, sans-serif;
+    font-size:14px;font-weight:normal;
+    padding:10px 5px;border-style:solid;
+    border-width:1px;overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+.tg .tg-1wig{
+    font-family: ftitulo;
+    color: slategray;
+    font-weight:bold;
+    text-align:left;
+    vertical-align:top;
+}
+
+.tg .tg-amwm{
+    font-family: ftitulo;
+    color: slategray;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top;
+}
+
+.tg .tg-0lax{
+    font-family: ftitulo;
+    color: slategray;
+    text-align:left;
+    vertical-align:top;
+}
+
+
+aside#cen video#vsolo{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 85%;
+    height: 85%;
+}
+
+aside#cen article img,aside#cen article video{
+    padding-left: 2%;
+    width: 50%;
+    float: left;
+}
+
+aside#cen .ita{
+    padding-left: 2% !important;
+    width: 100% !important;
+    float: none !important;
+}
+
+aside#cen article aside{
+    padding-top: 2%;
+    padding-left: 2%;
+    width: 45%;
+    float: left;
+}
+
+aside#der img{
+    padding-left: 2px;
+    width: 99%;
+}
