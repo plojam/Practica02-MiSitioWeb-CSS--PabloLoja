@@ -83,8 +83,9 @@ aside#cen video#vsolo{
 }
 
 aside#cen article img,aside#cen article video{
-    padding-left: 2%;
-    width: 50%;
+    margin-left: 50px;
+    border-radius: 20px;
+    width: 40%;
     float: left;
 }
 

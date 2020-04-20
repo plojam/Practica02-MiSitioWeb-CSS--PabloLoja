@@ -11,15 +11,15 @@ aside#der{
 }
 
 
-article img,article video{
-    padding-left: 2%;
-    width: 50%;
+article img,article video, article iframe{
+    margin-left: 100px;
+    border-radius: 20px;
+    width: 40%;
     float: left;
 }
 
 .ita{
-    padding-left: 2% !important;
-    width: 100% !important;
+    width: 80% !important;
     float: none !important;
 }
 
@@ -34,4 +34,5 @@ ul{
     padding-left: 40px;
     float: left;
 }
+
 

@@ -137,9 +137,6 @@ span#derechos{
     float: right;
 }
 
-iframe{
-    float: left;
-}
 
 footer{
     font-family: fpie;
@@ -152,3 +149,6 @@ footer img{
     height: 64px;
 }
 
+header img{
+    border-radius: 20px;
+}

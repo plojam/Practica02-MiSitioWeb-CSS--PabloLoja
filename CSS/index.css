@@ -32,3 +32,10 @@ input.btn{
     margin-bottom: 10px;
 }
 
+img{
+    border-radius: 20px;
+}
+
+section,article{
+    margin: auto 50px;
+}
