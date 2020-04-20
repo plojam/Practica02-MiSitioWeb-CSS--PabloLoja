@@ -90,8 +90,8 @@ aside#cen article img,aside#cen article video{
 }
 
 aside#cen .ita{
-    padding-left: 2% !important;
-    width: 100% !important;
+    margin-left: 10% !important;
+    width: 80% !important;
     float: none !important;
 }
 

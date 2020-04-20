@@ -11,8 +11,7 @@ section aside{
 }
 
 .dep{
-    padding-left: 1%;
-    padding-right: 1%;
+    margin-left: 4%;
     float: left;
 }
 
@@ -20,11 +19,11 @@ article#cita *{
     float: left;
 }
 article#cita{
-    padding-left: 20%;
+    margin-left: 20%;
 }
 
 .exponentes{
-    padding-left: 15%;
+    margin-left: 16%;
     float: left;
     text-align: center;
 }

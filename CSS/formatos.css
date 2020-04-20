@@ -24,14 +24,16 @@
 }
 
 body{
-    /*background-color: wheat;*/
-    /*background-color: #59B361;*/
     background-attachment: fixed;
     background-size: cover;
     background-image: url(../imagenes/wall.jpg);
 }
 
-header a#img{
+header img{
+    border-radius: 20px;
+}
+
+header a#por{
     width: 13%;
     float: left;
 }
@@ -40,6 +42,26 @@ header .icono{
     width: max-content;
     float: left;
     text-align: center;
+}
+
+nav.menu a{
+    font-family: fmenu;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+nav.menu{
+    height: max-content;
+    width: 10%;
+    float: left;
+    text-align: center;
+    background-color: rgb(95, 77, 77);
+}
+
+nav.menu:hover{
+    background-color: rgb(126, 37, 37);
 }
 
 header input{
@@ -65,7 +87,8 @@ ul{
     color: slategray;
 }
 
-.menu a{
+
+nav.vinculo a{
     font-family: fmenu;
     text-decoration: none;
     font-size: 20px;
@@ -73,35 +96,13 @@ ul{
     color: white;
 }
 
-.menu{
-    /*border: solid black;*/
-    height: max-content;
-    width: 10%;
-    float: left;
-    text-align: center;
-    background-color: rgb(95, 77, 77);
-}
-
-.menu:hover{
-    background-color: rgb(126, 37, 37);
-}
-
-.vinculo a{
-    font-family: fmenu;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.vinculo{
-    /*border: solid black;*/
+nav.vinculo{
     height: max-content;
     text-align: center;
     background-color: rgb(95, 77, 77);
 }
 
-.vinculo:hover{
+nav.vinculo:hover{
     background-color: rgb(126, 37, 37);
 }
 
@@ -110,13 +111,11 @@ ul{
 }
 
 section{
-    /*background-color: #CCAB5E;*/
     background-color: #F5F5F5;
     border-radius: 20px;
 }
 
 article{
-    /*background-color: #FFD675;*/
     background-color: #C2C2C2;
     border-radius: 20px;
 }
@@ -126,17 +125,6 @@ div.separadores{
     height: 10px;
     clear: both;
 }
-
-fieldset{
-    width: 30%;
-    float: left;
-    padding-left: 40px;
-}
-
-span#derechos{
-    float: right;
-}
-
 
 footer{
     font-family: fpie;
@@ -149,6 +137,13 @@ footer img{
     height: 64px;
 }
 
-header img{
-    border-radius: 20px;
+fieldset{
+    margin-left: 4%;
+    width: 25%;
+    float: left;
+    padding-left: 40px;
+}
+
+span#derechos{
+    float: right;
 }
