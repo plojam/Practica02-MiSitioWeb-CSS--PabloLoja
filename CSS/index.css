@@ -28,4 +28,7 @@ article#cita{
     float: left;
     text-align: center;
 }
+input.btn{
+    margin-bottom: 10px;
+}
 

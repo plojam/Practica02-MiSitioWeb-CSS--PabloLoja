@@ -39,7 +39,7 @@ header a#img{
 header .icono{
     width: max-content;
     float: left;
-    /*border: solid black;*/
+    text-align: center;
 }
 
 header input{
@@ -63,11 +63,6 @@ p{
 ul{
     font-family: flistas;
     color: slategray;
-}
-
-footer{
-    font-family: fpie;
-    color: white;
 }
 
 .menu a{
@@ -144,5 +139,16 @@ span#derechos{
 
 iframe{
     float: left;
+}
+
+footer{
+    font-family: fpie;
+    color: white;
+}
+
+footer img{
+    width: 20%;
+    margin-right: 55px;
+    height: 64px;
 }
 
